@@ -1,0 +1,17 @@
+{
+	"name": "LS_AzureSqlDatabase",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "caresync.database.windows.net",
+			"database": "caresyncdb",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "adminstuu",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEU0RjE3QzBCLTJERUUtNDlGOC1COEJBLTI4QzQ5NzkzMkM2Ml9iMzQyOWU4NS0xODk0LTQ5MDMtYjYzMy02ZWEwMzRmYjVlMmQiDQp9"
+		}
+	}
+}
