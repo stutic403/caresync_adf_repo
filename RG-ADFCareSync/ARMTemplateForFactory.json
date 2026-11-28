@@ -194,8 +194,6 @@
 					{
 						"name": "Update Status on success",
 						"type": "Script",
-						"state": "Inactive",
-						"onInactiveMarkAs": "Succeeded",
 						"dependsOn": [
 							{
 								"activity": "Bronze To Silver",
