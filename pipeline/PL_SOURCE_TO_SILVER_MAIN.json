@@ -155,11 +155,11 @@
 		"parameters": {
 			"source_system": {
 				"type": "string",
-				"defaultValue": "azure_sql"
+				"defaultValue": "adls_csv"
 			},
 			"adf_run_id": {
 				"type": "string",
-				"defaultValue": "a9"
+				"defaultValue": "a10"
 			}
 		},
 		"variables": {
